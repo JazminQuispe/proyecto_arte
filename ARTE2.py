@@ -3,7 +3,7 @@ from datetime import datetime
 
 # Configuración de la página
 st.set_page_config(
-    page_title="Tu Perfil Digital",
+    page_title="Creíste en mí porque sonaba como tú",
     page_icon="🔍",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -720,3 +720,4 @@ elif st.session_state.page == 'revelacion':
             st.session_state.respuestas = {}
             st.session_state.pregunta_actual = 1
             st.rerun()
+
