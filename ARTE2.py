@@ -3,7 +3,7 @@ from datetime import datetime
 
 # Configuración de la página
 st.set_page_config(
-    page_title="Creíste en mí porque sonaba como tú",
+    page_title="Proyecto Arte",
     page_icon="🔍",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -460,7 +460,7 @@ def generar_analisis(respuestas, categoria):
 
 # PÁGINA DE INTRODUCCIÓN
 if st.session_state.page == 'intro':
-    st.markdown("<h1 style='text-align: center; margin-top: 50px;'>🔍 TU PERFIL DIGITAL</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; margin-top: 50px;'>🔍 CREÍSTE EN MÍ PORQUE SONABA COMO TÚ</h1>", unsafe_allow_html=True)
     
     st.markdown("""
     <div class='intro-box'>
@@ -720,4 +720,5 @@ elif st.session_state.page == 'revelacion':
             st.session_state.respuestas = {}
             st.session_state.pregunta_actual = 1
             st.rerun()
+
 
